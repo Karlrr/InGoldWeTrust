@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;600&display=swap');
+
+
+body{
+    margin: 0;
+    max-width: 1260px;
+    font-family: 'Merriweather Sans', sans-serif;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.l-floL{
+    float: left;
+}
+
+.l-floR{
+    float: right;
+}
+
+.f-center{
+    text-align: center;
+}
+
+.ly-content{
+    padding-top: 50px;
+    width: 1260px;
+}
+
+.head-logo{
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.head-logo_r{
+    position: absolute;
+    font-size: 25px;
+}
+
+.ly-head-menu{
+    position: relative;
+}
+
+.head-menu-item{
+    float: left;
+    margin-left: 35px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.turn-gray:hover{
+    color: lightgray;
+    transition: all 
+    0.3s;
+}
+
+.more-btn{
+    cursor: default;
+}
+
+.more-btn:hover .head-cont{
+    display: block;
+}
+
+.head-cont{
+    position: absolute;
+    right: 0;
+    top: 35px;
+    display: none;
+    
+    cursor: pointer;
+}
+
+.clear{
+    clear: both;
+}
+
+.head-sale{
+    color: red;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.head-icon {
+    transform: translateY(-10px);
+    transition: all 0.2s;
+    z-index: 1;
+    color: gray;
+}
+
+.head-icon_login{
+    font-size: 12px;
+    font-weight: 300;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.head-icon i{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* .main-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+.ly-footer{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    height: 10px;
+}
+
+.footer-word{
+    width: 60%;
+    font-size: 12px;
+    font-weight: 300;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.footer-input{
+    width: 30%;
+}
+
+.footer-left i{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.footer-icon{
+    cursor: pointer;
+}
+
+.footer-form{
+    width: 300px;
+    margin-top: -20px;
+}
+
+.footer-input{
+    width: 180px;
+    height: 28px;
+    font-size: 11px;
+    border: 1px solid gray;
+}
+
+.footer-input::placeholder {
+    color: black;
+}
+
+.footer-btn{
+    width: 70px;
+    height: 32px;
+    font-size: 11px;
+    background-color: white;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.footer-input:focus{
+    outline: 1px solid red;
+}
+
+.footer-input:active {
+    outline: 1px solid red;
+}
